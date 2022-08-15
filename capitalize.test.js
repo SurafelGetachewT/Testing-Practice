@@ -5,7 +5,7 @@ describe("Test capitalize function", () => {
     expect(capitalize("programming")).toBe("Programming");
   });
 
-  test('"microverse" test', () => {
+  test("microverse", () => {
     expect(capitalize("microverse")).toBe("Microverse");
   });
 });
